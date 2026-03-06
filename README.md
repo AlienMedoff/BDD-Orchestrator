@@ -18,10 +18,10 @@ SEND 1.5 TON TO @friend
 # Check wallet balance
 BALANCE OF EQD...your_wallet_address
 
-# Stake in DeFi protocol
+# Stake in DeFi
 STAKE 100 TON IN StonFi FOR 30 days
 
-# Provide liquidity
+# Add liquidity
 PROVIDE 50 TON + 500 USDT TO Dedust POOL
 ```
 
@@ -32,26 +32,26 @@ PROVIDE 50 TON + 500 USDT TO Dedust POOL
 ## 🚀 Why This Changes Everything
 
 ### 🎯 The Problem
-- **TON development is hard** - requires smart contract knowledge
-- **DeFi is complicated** - multiple interfaces, steep learning curve
-- **Development is fragmented** - no unified platform
+- **TON development is hard** - requires smart contract expertise
+- **DeFi is confusing** - too many interfaces, steep learning curve
+- **Development is scattered** - no unified platform
 
 ### 💡 Our Solution
-- **Natural language → blockchain** - write English, get TON transactions
-- **Universal runtime** - one platform for all TON applications
+- **Plain English → blockchain** - write naturally, get TON transactions
+- **Universal runtime** - one platform for all TON apps
 - **Zero coding required** - anyone can build blockchain apps
 
 ---
 
-## 🎮 Quick Test in Google Colab
+## 🎮 Try It Now
 
-**Try it right now:** [📊 Open in Google Colab](notebooks/aether_os_colab.ipynb)
+**Test it instantly:** [📊 Open in Google Colab](notebooks/aether_os_colab.ipynb)
 
-### 🚀 One-Click Test
+### 🚀 One-Click Demo
 1. **Open the notebook** in Google Colab
 2. **Runtime → Run all** 
 3. **Watch 22 tests pass** on mock data
-4. **No Docker, no Redis, no API key required**
+4. **No setup required** - just click and try
 
 ---
 
@@ -66,16 +66,16 @@ PROVIDE 50 TON + 500 USDT TO Dedust POOL
          ▼                       ▼                       ▼
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │  Agent Context  │────│  Redis Cache    │────│  Syscalls       │
-│  (Manager)      │    │  (State)        │    │  (Reaper)      │
+│  (Manager)      │    │  (State)        │    │  (Cleanup)      │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-### 🧠 The Magic
-1. **BDD Parser** - converts Gherkin to executable steps
+### 🧠 The Magic Inside
+1. **BDD Parser** - converts plain English to executable steps
 2. **DAG Orchestrator** - manages complex transaction flows
 3. **Agent Context Manager** - handles agent state and communication
 4. **Syscalls** - secure blockchain interaction layer
-5. **Reaper** - cleanup and rollback mechanisms
+5. **Cleanup Service** - rollback and maintenance mechanisms
 
 ---
 
@@ -109,7 +109,7 @@ PROVIDE 50 TON + 500 USDT TO Dedust POOL
 
 ## 🚀 Quick Start
 
-### 📋 **Prerequisites**
+### 📋 **What You Need**
 - **Python 3.10+** with asyncio support
 - **Docker & Docker Compose** (optional, for containerized deployment)
 - **TON API key** for blockchain operations
@@ -342,7 +342,9 @@ npx blueprint run deploy --network testnet
 
 ---
 
-## 🤝 Contributing Guidelines
+## 🤝 Contributing
+
+We welcome contributions! Here's how to get started:
 
 ### 🚀 **Development Workflow**
 1. **Fork Repository** from GitHub
@@ -398,19 +400,19 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ## 🚀 Roadmap
 
-### 🎯 **Q1 2024**
+### 🎯 **Q1 2026**
 - ✅ **Basic DSL engine** with BDD parsing
 - ✅ **TON integration** with smart contracts
 - ✅ **Agent framework** with rollback support
 - ✅ **Docker deployment** with monitoring
 
-### 🚀 **Q2 2024**
+### 🚀 **Q2 2026**
 - 🔄 **Advanced DSL features** - loops, conditions, variables
 - 🔄 **Multi-chain support** - Ethereum, BSC integration
 - 🔄 **Web dashboard** - visual interface for DSL
 - 🔄 **Enhanced testing** - automated test generation
 
-### 🌟 **Q3 2024**
+### 🌟 **Q3 2026**
 - 📋 **Mobile app** - iOS and Android clients
 - 📋 **Enterprise features** - team management, RBAC
 - 📋 **AI integration** - natural language to DSL
@@ -432,16 +434,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ---
 
-## 🚀 **One-Click Deployment**
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/AlienMedoff/ton-tx-dsl)
-[![Deploy to Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/AlienMedoff/ton-tx-dsl)
-
----
-
 ## 🌟 Star This Project
 
-If you find TON Transaction DSL useful for your projects, please give it a ⭐ on GitHub!
+If you find TON Transaction DSL useful, please give it a ⭐ on GitHub!
 
 **[![GitHub stars](https://img.shields.io/github/stars/AlienMedoff/ton-tx-dsl?style=social)](https://github.com/AlienMedoff/ton-tx-dsl)**
 
@@ -450,12 +445,12 @@ If you find TON Transaction DSL useful for your projects, please give it a ⭐ o
 ## 🔗 Quick Links
 
 - **🚀 Live Demo**: [Try in Colab](https://colab.research.google.com/github/AlienMedoff/ton-tx-dsl/blob/main/notebooks/aether_os_colab.ipynb)
-- **📚 Documentation**: [Full docs](https://docs.ton-tx-dsl.com)
+- **📚 Documentation**: [Full docs](https://github.com/AlienMedoff/ton-tx-dsl)
 - **🐳 Docker Hub**: [Container images](https://hub.docker.com/r/ton-tx-dsl)
-- **📊 Test Coverage**: [Coverage reports](https://coverage.ton-tx-dsl.com)
+- **📊 Test Coverage**: [Coverage reports](https://github.com/AlienMedoff/ton-tx-dsl/actions)
 
 ---
 
 **🚀 TON Transaction DSL: Universal Agentic Runtime for TON Blockchain**
 
-*Transform natural language into blockchain transactions - no coding required.*
+*Transform plain English into blockchain transactions - no coding required.*
